@@ -42,7 +42,7 @@ function calculateTotal(){
     const caseNumber = parseInt(caseQuantity);
     const caseCost = caseNumber * 59;
     const subTotal = phoneCost + caseCost;
-    const tax = subTotal * 0.2;
+    const tax = subTotal * 0.1;
 
     document.getElementById('subtotal').innerText = subTotal;
     document.getElementById('tax').innerText = tax.toFixed(2);
